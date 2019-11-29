@@ -28,6 +28,7 @@ header{
 	
 	background-color:pink; 
 	color: black;
+	font-family: 'Dancing Script', cursive;
 text-align: center;
 			background-repeat: no-repeat, repeat;
 				width:100% ;
@@ -73,10 +74,13 @@ background-color:pink;
  color: hotpink;
   font-size: 26px;
 
-	
+
 }
 
+#gallery{
 
+	
+}
 
 footer {	
 	
@@ -86,13 +90,6 @@ footer {
 	background-color:
 	clear:both;
 }
-
-h3	{color:
-				font-size: 40pt;
-				text-align: center;
-				
-				}
-
 
 
 
