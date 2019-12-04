@@ -5,8 +5,17 @@
 	<title>Final project</title>
 	
 
-	  <link type="text/css" rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({left: '250px'});
+  });
+});
+</script> 
 
+
+	  <link type="text/css" rel="stylesheet" href="main.css">
 
 
 <nav>
@@ -44,13 +53,17 @@ body {
 }
 
 h1 {
+	font-family: 'Pacifico', cursive; 
   color: black;
-  font-size: 50px;
-  margin-left: 20px;
+  font-size: 68px;
+  margin-left: 40px;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 h2{
 	color: black;
+	font-family:'Dancing Script', cursive;
 	font-size: 30px;
 text-decoration: underline;
 text-align: center;
@@ -69,7 +82,9 @@ text-align: center;
 </style>
 
 <style>
-#about {
+.about {
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
   text-align: center;
   background-color: pink;
   color: black;
@@ -84,8 +99,7 @@ text-align: center;
 }
 </style>
 
-
-
+<link href="https://fonts.googleapis.com/css?family=Handlee|Sulphur+Point|Amatic+SC|Shadows+Into+Light+Two|Dancing+Script|Pacifico&display=swap" rel="stylesheet"> 
 
 
 </head>
@@ -93,20 +107,26 @@ text-align: center;
 
 
 <header style="background-color:pink;">
+
 <div id="logo">
-<center><img src="assets/images/malecstudios.png" alt="logo" id="logo"></center>
+
+<center><img src="assets/images/mmms.png" alt="logo" id="logo"></center>
 </div>
-<div id="title">	
+
+<div id="h1">
+<section id="h1" style="font-family: 'Pacifico', cursive;">
 <h1>Welcome, Friend's!</h1>
+</section>
 </div>
+
 
 </header>
 
-
-
 <body>
 
-<div id="nav">
+
+
+<div class="nav">
 <ul>
 	<li><a href="gallery.html">Gallery</a></li>
 	<li><a href="contact.html">Contact</a></li>
@@ -117,16 +137,40 @@ text-align: center;
 
 
 <div id="art1">
-<section id="art1" style="background-color:pink;" style="color:black;"><center><h2>About</h2>
+<section id="art1" style="background-color:pink;" style="color:black;"><center><h2>Behind the lens..</h2>
 </center>
 
-<article class="about"><center>Hello, my name is Marguerite!</br>
-I have been capturing memories from behind my camera lens for over ten years,</br>specializing in a wide range of photography from outdoor sporting events, weddings,</br> cupples photoshoots and family photos to headshots and commercial photography.</br>
-Your options are limitless with Malec Studios!</br>
-<p id="booking"><strong><a href="contact.html">BOOK YOUR NEXT SHOOT TODAY!</a></strong></p>
-</article>
+<div id="marguerite">
+<center><img src="assets/images/marguerite.jpg" alt="logo" id="logo" width="450" height="350">
 </center>
+</div>
+
+
+<div>
+<section class="about" style="font-family: 'Handlee', cursive;"><center><strong>Howdy!</strong></br></center>
 </section>
+</div>
+
+<div id="ms">
+<article id="ms" style="font-family: 'Handlee', cursive;">
+<center>
+My name is Marguerite Malec!</br>
+I am a local San Antonio photographer,</br>
+capturing memories for my clients since 2008..</br>
+Specializing in a wide range of photography from outdoor sporting events,</br>
+bridal showers and weddings, cupples photoshoots and family photos</br>
+to headshots and commercial photography.</br>
+It is my goal to provide my clients with a comfortable,</br>
+yet exciting experience they will never forget!</br>
+Going on an adventure?</br>
+Take me with you to bring home the memories!</br>
+Your photoshoot options with Malec Studios are limitless!</br>
+</center>
+</article>
+</div>
+
+<div>
+<p id="booking"><strong><a href="contact.html">BOOK YOUR NEXT SHOOT TODAY!</a></strong></p>
 
 </div>
 
@@ -144,6 +188,11 @@ Your options are limitless with Malec Studios!</br>
 
 
 <footer>
+
+<button>Thank you for visiting Malec Studios!</button>
+
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
 
 
 
