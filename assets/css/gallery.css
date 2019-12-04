@@ -8,7 +8,9 @@ body{ background-color: pink;
 }
 
 
-#logo	{width: 1020px;
+#logo	{width: 500px;
+	height: 450px;
+
 
  				margin: 0; auto;
  				background-color: pink;
@@ -17,6 +19,7 @@ body{ background-color: pink;
 				}
 
 #title	{width: 1020px;
+	font-family: 'Amatic SC', cursive;
  				margin: 0; auto;
  				background-color: pink;
 text-align: center;
@@ -36,7 +39,7 @@ text-align: center;
 				padding-bottom: 0px;
 }
 
-#nav{
+.nav{
 			background-color:black;
 				width:100%;
 				height:35px ;
@@ -44,19 +47,34 @@ text-align: center;
 				padding: 0px;
 				}
 
+#h1{
+font-family: 'Amatic SC', cursive;
+  color: black;
+  font-size: 66px;
+  margin-left: 40%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
 
 
 
 .gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+  margin: 10px;
+  border: 4px solid #ccc;
   float: left;
   width: 180px;
 }
 
+
+
 .gallery img {
-  width: 350px;
-  height: 400px;
+  width: 430px;
+  height: 350px;
+}
+
+#long img {
+  width: 450px;
+  height: 500px;
 }
 
 .desc {
